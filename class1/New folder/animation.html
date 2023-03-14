@@ -1,0 +1,94 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        body {
+            background-color: gray;
+        }
+
+        div {
+            width: 100px;
+            height: 100px;
+            animation-name: div1;
+            background-color: red;
+            animation-duration: 4s;
+            position: relative;
+            animation-delay: 2s;
+            animation-iteration-count: infinite;
+            animation-direction: alternate;
+
+        }
+
+        @keyframes div1 {
+            0% {
+                background-color: yellow;
+                left: 0px;
+                top: 0px;
+            }
+
+            25% {
+                background-color: red;
+                left: 200px;
+                top: 0px;
+            }
+
+            50% {
+                background-color: rgb(16, 16, 44);
+                left: 200px;
+                top: 200px;
+            }
+
+            75% {
+                background-color: coral;
+                left: 400px;
+                top: 200px;
+            }
+            100%{
+                background-color: blueviolet;
+                left: 400px;
+                top: 400px;
+            }
+
+            100%{
+                background-color: blueviolet;
+                left: 400px;
+                top: 400px;
+            }
+            75% {
+                background-color: coral;
+                left: 400px;
+                top: 200px;
+            }
+            50% {
+                background-color: rgb(16, 16, 44);
+                left: 200px;
+                top: 200px;
+            }
+            25% {
+                background-color: red;
+                left: 200px;
+                top: 0px;
+            }
+            0% {
+                background-color: yellow;
+                left: 0px;
+                top: 0px;
+            }
+
+
+
+        }
+    </style>
+</head>
+
+<body>
+
+    <div class="class1"></div>
+</body>
+
+</html>
